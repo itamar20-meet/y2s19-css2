@@ -13,6 +13,16 @@ p {
     font-size: 24pt;
 }
 
-a {
-    color:red;
+.less_important_paragraphs:hover {
+    color:blue;
+}
+#important_paragraph:hover{
+	color: yellow;
+	font-size: 40px;
+}
+#hidden_div{
+	display: none;
+}
+#span_cover:hover + #hidden_div {
+    display: block;
 }
