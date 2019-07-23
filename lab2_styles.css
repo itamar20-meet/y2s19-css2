@@ -1,7 +1,6 @@
 body {
-    margin: 0;
-    position: relative;
-}
+    margin:0;
+   }
 
 h1 {
     font-size: 42pt;
@@ -9,13 +8,7 @@ h1 {
     text-align: center;
     background-color: blue;
     opacity: .5;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-
-}
-#first_p{
-    top:100px;
+    
 }
 
 p {
@@ -24,9 +17,7 @@ p {
     background-color: lightgreen;
     opacity: .5;
     width: 60%;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
+    
 }
 
 a {
@@ -34,18 +25,13 @@ a {
     background-color: pink;
     opacity: .5;
     position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-    top: 50px;
+   
 }
 
 span {
 	background-color: yellow;
     opacity: 1;	
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
-
+    
 }
 
 form {
@@ -53,17 +39,12 @@ form {
 	width: 400px;
 	background-color: orange;
     opacity: .9;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);	
-}
+    
 
 input {
 	background-color: purple;
     opacity: 1;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
+    
 }
 
 div {
@@ -71,14 +52,7 @@ div {
 	width: 400px;
 	background-color: blue;
     opacity: .7;
-    position: absolute;
-    left:50%;
-    transform: translateX(-50%);
+    
 
     	
-}
-*{
-   position: absolute;
-    left:50%;
-    transform: translateX(-50%); 
 }
